@@ -1,16 +1,16 @@
 # two-player-chess
 This program is a two-player chess game that can be played through a command-line interface.
 
-ChessGame is the driver class.
+`ChessGame` is the driver class and is located in the `ChessGame.java` file.
 
 The game is played according to the standard rules of chess. The white pieces are denoted by uppercase letters, while the black pieces are
 denoted by lowercase letters.
 
 Below are the steps to making a chess move:
-1. Type the alegbraic coordinates (eg. a1) of the piece that you wish to move.
+1. Type the alegbraic coordinates (eg. `a1`) of the piece that you wish to move.
 2. Type a dash.
 3. Type the alegbraic coordinates of the square to which you want to move the piece.
-Here is an example of what a legal move may look like: a2-a3
+Here is an example of what a legal move may look like: `a2-a3`
 
 Each time a player makes a move, the board flips orientation.
 
